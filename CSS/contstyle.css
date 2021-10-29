@@ -1,0 +1,25 @@
+variables{
+    --main-color: rgba(66, 66, 66, 0.671);
+}
+
+#head-form {
+    background-color: rgba(66, 66, 66, 0.671);
+    color: rgb(160, 160, 160)
+}
+
+#head-form button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#head-form h2, h3 {
+    text-align: center;
+}
+
+#mensajeForm{
+    display: none;
+}
+
+#mensajeForm-activo{
+    display: block;
+}

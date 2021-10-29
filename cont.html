@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/contstyle.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>The Papa's Brothers - Contacto</title>
+</head>
+<body>
+    <div id="main">
+        <nav class="nav--bar fixed-top">
+            <div class="contenedor">
+                <img href="index.html" src="images/Logo.png" alt="Logo" class="Logo">
+                <ul>
+                    <a href="index.html">Inicio</a>
+                    <a href="ham.html">Hamburguesas</a>
+                    <a href="cont.html">Contacto</a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="section container" id="head-form">
+            <h2>Formulario de consulta</h2>
+            <h3>Ingrese su consulta y le responderemos a la brevedad.</h3>
+            <form action="" id="form">
+                <div class="mb-3 mt-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="nombre" id="nombre" name="nombre" placeholder="Ingrese su Nombre" class="form-control">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="apellido" class="form-label">Apellido:</label>
+                    <input type="apellido" id="apellido" name="apellido" placeholder="Ingrese su Apellido" class="form-control">
+                </div>
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Ingrese email (Dónde recibirá su respuesta)" name="email">
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="comment">Consulta:</label>
+                    <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                </div>
+                <div class="card bg-danger text-white text-center mensajeForm" id="mensajeForm">
+                    <div class="card-body">Hay campos sin rellenar o con caracteres no válidos</div>
+                </div>
+                <button id="btn" type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+        </div>
+        
+        <footer>
+            <div class="footcont text-center">
+                <h2 class="textofoot">Gracias por su visita</h2>
+            </div>
+            <div class="redes">
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="copy text-center">Copyright © | The Papa's Brothers 2021</div>
+        </footer>
+
+    </div>
+    <script src="JS/appform.js"></script>
+</body>
+</html>
